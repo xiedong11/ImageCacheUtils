@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+
     }
 
     private void loadImage() {
@@ -49,16 +50,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        File appDir = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/test");
-        if (!appDir.exists()) {
-            try {
-                boolean isSuccess = isSuccess = appDir.createNewFile();
-                System.out.println("isSuccess:"+isSuccess);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-        }
 
 
 

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView imageView;
     private MyBitMapUtils myBitMapUtils;
-    private static  final String url= "http://img07.tooopen.com/images/20170306/tooopen_sy_200775896618.jpg";
+    private static  final String url= "http://images.cnitblog.com/blog/325852/201303/31175530-93003055329b413fabf5b6215e28ab25.png";
     private Button mButton;
 
     @Override

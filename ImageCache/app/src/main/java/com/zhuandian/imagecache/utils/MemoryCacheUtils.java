@@ -25,7 +25,7 @@ public class MemoryCacheUtils {
 
 
     public Bitmap getFromMemory(String url){
-        System.out.println("--------------load Image from memory-------------");
+        System.out.println("--------------load Image from memory-------------"+url);
         return mLruCache.get(url);
     }
 

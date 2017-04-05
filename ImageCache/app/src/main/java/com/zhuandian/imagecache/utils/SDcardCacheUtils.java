@@ -17,10 +17,10 @@ import java.io.IOException;
 
 public class SDcardCacheUtils {
 
-    private static final String CACHE_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + "/zhuandian";
+    private static final String CACHE_PATH = Environment.getExternalStorageDirectory().getAbsolutePath() + "/zhuandian"+"/";
 
     public Bitmap getFromSDcard(String url) {
-        String fileName = url.substring(0, 5);
+        String fileName = url.substring(0, 6);
         File file = new File(CACHE_PATH, fileName);
 
 
